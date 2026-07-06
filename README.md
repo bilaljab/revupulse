@@ -105,10 +105,10 @@ app/
 
 ## 📦 Deployment
 
-The easiest way to deploy is [Vercel](https://vercel.com/new) (built by the Next.js team):
+This project is deployed on [Netlify](https://www.netlify.com):
 
-1. Import this repository into Vercel
-2. Add the `NEXT_PUBLIC_FORMSPREE_FORM_ID` environment variable in the Vercel project settings
+1. Import this repository into Netlify (Netlify auto-detects Next.js via the [`@netlify/plugin-nextjs`](https://docs.netlify.com/frameworks/next-js/overview/) build plugin)
+2. Add the `NEXT_PUBLIC_FORMSPREE_FORM_ID` environment variable in the Netlify site settings (**Site configuration → Environment variables**)
 3. Deploy 🚀
 
 ---
