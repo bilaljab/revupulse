@@ -42,3 +42,14 @@ Follow the **Conventional Commits** standard, e.g.:
 - `fix: correct email validation regex`
 - `chore: update gitignore`
 - `docs: update README`
+
+## Installed Skills (Global)
+
+When a task needs any of the following, use the matching skill directly from its full path below without waiting for an explicit request to mention the path:
+
+- **ui-ux-pro-max** — design database (colors, fonts, UI patterns). Path: `C:\Users\belal\.claude\skills\ui-ux-pro-max\scripts\search.py` (invoke with: `python [path] "query" --domain [style|color|icons|...]`)
+- **taste-skill (design-taste-frontend)** — controls design boldness/motion/density via dials (DESIGN_VARIANCE, MOTION_INTENSITY, VISUAL_DENSITY). Path: `C:\Users\belal\.claude\skills\taste-skill\`
+- **copywriting** — rewrites marketing copy to be more specific and impactful instead of generic. Path: `C:\Users\belal\.claude\skills\copywriting\`
+- **cro** (sometimes referred to as "page-cro") — conversion rate optimization at the CTA and microcopy level. Path: `C:\Users\belal\.claude\skills\cro\`
+
+Important note: because Claude Code's automatic discovery of globally installed skills is limited, don't wait for an explicit mention of a skill's name or path in every request — if the requested task relates to any of the domains above (design, colors, marketing copy, conversion), assume the matching skill from this list should be used automatically, and state that explicitly in your response.
